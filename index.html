@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Guessing Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Color Guessing Game</h1>
+        <div class="game-info">
+            <p>RGB Value: <span id="color-value">(255, 255, 255)</span></p>
+            <p>Score: <span id="score">0</span></p>
+        </div>
+        
+        <div class="color-options">
+            <div class="color-box" id="option1"></div>
+            <div class="color-box" id="option2"></div>
+            <div class="color-box" id="option3"></div>
+        </div>
+        
+        <div class="message" id="message">Pick the correct color!</div>
+        <button id="reset-btn">New Colors</button>
+        
+        <div class="instructions">
+            <h2>How to Play</h2>
+            <p>Match the color shown in the RGB value by clicking on one of the colored boxes.</p>
+            <p>RGB values range from 0 to 255 for Red, Green, and Blue components.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Created for ApexPlanet Internship - Task 1</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
